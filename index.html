@@ -66,7 +66,8 @@
                 <div class="media">
                     <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/uthappizza.png" alt="uthappizza">
                     <div class="media-body">
-                        <h2 class="mt-0">Uthappizza<span class="badge badge-danger">HOT</span> <span class="badge badge-pill badge-secondary">$4.99</span></h2>
+                        <h2 class="mt-0">Uthappizza<span class="badge badge-danger">HOT</span> <span
+                                class="badge badge-pill badge-secondary">$4.99</span></h2>
                         <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and Italian
                             pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur
                             chillies and Buffalo Paneer.</p>
@@ -105,7 +106,74 @@
                 </div>
             </div>
         </div>
+        <div class="row row-content align-items-center">
+            <!--RESERVATION -->
+            <div class="col-12 offset-sm-2 col-sm-8">
+                <div class="card">
+                    <h3 class="card-header text-white bg-warning">Reserve a Table</h3>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group row">
+                                <p class="col-12 col-lg-2" class="form-control">Number of Guests</p>
+                                <div class="col-12 col-lg-10">
+                                    <!--using lg because "<p>" looks rly bad on md and smaller-->
+                                    <!--name has to be the same, if not then multiple radios get selectable-->
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="numberOfGuests"
+                                            id="nrGuests1" value="">
+                                        <label class="form-check-label" for="nrGuests1">1</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="numberOfGuests"
+                                            id="nrGuests2" value="">
+                                        <label class="form-check-label" for="nrGuests2">2</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="numberOfGuests"
+                                            id="nrGuests3" value="">
+                                        <label class="form-check-label" for="nrGuests3">3</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="numberOfGuests"
+                                            id="nrGuests4" value="">
+                                        <label class="form-check-label" for="nrGuests4">4</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="numberOfGuests"
+                                            id="nrGuests5" value="">
+                                        <label class="form-check-label" for="nrGuests5">5</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="numberOfGuests"
+                                            id="nrGuests6" value="">
+                                        <label class="form-check-label" for="nrGuests6">6</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="dateForm" class="col-md-2 col-form-label">Date and Time</label>
+                                <div class="col-md-5">
+                                    <input type="date" class="form-control" id="dateForm" name="dateForm"
+                                        placeholder="Date">
+                                </div>
+                                <div class="col-md-5">
+                                    <input type="time" class="form-control" id="timeForm" name="timeForm"
+                                        placeholder="Time">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="offset-md-2 col-md-10">
+                                    <button class="btn btn-primary" type="submit">Reserve</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+
 
     <footer class="footer">
         <div class="container">
